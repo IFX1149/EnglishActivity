@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.presentation {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    padding: 40px;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.slide h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.slide h2 {
+    font-size: 1.8em;
+    color: #666;
+}
+
+.slide p, .slide ul {
+    font-size: 1.2em;
+    color: #444;
+}
+
+.slide ul {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.slide-image {
+    max-width: 100%;
+    max-height: 50%;
+    object-fit: contain;
+    margin: 20px 0;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #2e14c4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2e14c4;
+}
